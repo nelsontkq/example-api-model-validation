@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace test_webapi
+namespace ModelValidationExampleApi.Models
 {
     public class PersonAddRequest
     {

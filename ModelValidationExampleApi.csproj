@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RootNamespace>test_webapi</RootNamespace>
+    <RootNamespace>ModelValidationExampleApi</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ModelValidationExampleApi.Models;
 
-namespace test_webapi.Controllers
+namespace ModelValidationExampleApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class PersonController : ControllerBase
     {
-        // GET api/values
         [HttpPost]
         public IActionResult Post([FromBody]PersonAddRequest request)
         {
+            // This won't be hit.
             return Ok();
         }
     }
